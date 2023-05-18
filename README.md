@@ -7,3 +7,5 @@ Each challenge sees us writing a full application or tool, most of which will be
 The challenges were chosen to be small enough to completed in your spare time over a week or two and yet large enough to be complete working projects and are presented with an introduction explaining the challenge. Where applicable, there is a background section providing a brief introduction to any background knowledge needed to complete the challenge. Afterwards, we are given a detailed explanation of the challenge, followed by some instructions and/or scripts to run to test your solution.
 
 ## The Challenges
+
+1. [wc](https://codingchallenges.fyi/challenges/challenge-wc)

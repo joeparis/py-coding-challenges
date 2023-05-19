@@ -5,6 +5,34 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "ccwc",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${fileDirname}",
+            "args": [
+                "-c",
+                "text.txt",
+                "user.json"
+            ]
+        },
+        {
+            "name": "click_demo",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${fileDirname}",
+            "args": [
+                "blob.json",
+                "get_text",
+                "--sentences"
+            ]
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
@@ -12,6 +40,6 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "cwd": "${fileDirname}"
-        }
+        },
     ]
 }

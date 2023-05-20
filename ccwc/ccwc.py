@@ -6,11 +6,8 @@ from pathlib import Path
 import click
 
 
-# @click.group("cli")
 @click.command()
-# @click.pass_context
 @click.argument("file")
-# @click.argument("file", type=click.Path(exists=True), nargs=-1)
 @click.option("-c", "--bytes", is_flag=True, help="Print the byte counts.")
 @click.option("-l", "--lines", is_flag=True, help="Print the byte counts.")
 @click.version_option(version="0.1.0")

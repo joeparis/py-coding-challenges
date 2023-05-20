@@ -9,8 +9,8 @@ import click
 @click.command()
 @click.argument("file")
 @click.option("-c", "--bytes", is_flag=True, help="Print the byte counts.")
-@click.option("-l", "--lines", is_flag=True, help="Print the byte counts.")
-@click.option("-w", "--words", is_flag=True, help="Print the byte counts.")
+@click.option("-l", "--lines", is_flag=True, help="Print the newline counts.")
+@click.option("-w", "--words", is_flag=True, help="Print the word counts.")
 @click.version_option(version="0.1.0")
 def cli(file, bytes, lines, words):
     file_path = Path(file)

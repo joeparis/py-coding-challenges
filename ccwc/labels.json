@@ -1,0 +1,444 @@
+{
+  "labels": [
+    {
+      "relevance": 0.5335827469825745,
+      "label": "EventsAndAttractions>FanConventions"
+    },
+    {
+      "relevance": 0.05573934316635132,
+      "label": "Movies>ScienceFictionMovies"
+    },
+    {
+      "relevance": 0.04355249181389809,
+      "label": "BooksAndLiterature>Fiction"
+    },
+    {
+      "relevance": 0.027718156576156616,
+      "label": "Technology&Computing>Robotics"
+    },
+    {
+      "relevance": 0.021982992067933083,
+      "label": "Technology&Computing>VirtualReality"
+    },
+    {
+      "relevance": 0.01868468150496483,
+      "label": "Technology&Computing>ArtificialIntelligence"
+    },
+    {
+      "relevance": 0.015583173371851444,
+      "label": "VideoGaming"
+    },
+    {
+      "relevance": 0.014812910929322243,
+      "label": "Television>ScienceFictionTV"
+    },
+    {
+      "relevance": 0.012538926675915718,
+      "label": "Hobbies&Interests>GamesAndPuzzles>RoleplayingGames"
+    },
+    {
+      "relevance": 0.00972871482372284,
+      "label": "VideoGaming>VideoGameGenres"
+    },
+    {
+      "relevance": 0.9934931397438049,
+      "label": "Technology&Computing>ArtificialIntelligence"
+    },
+    {
+      "relevance": 0.0025005131028592587,
+      "label": "Technology&Computing>Computing"
+    },
+    {
+      "relevance": 0.0018277829512953758,
+      "label": "Education>LanguageLearning"
+    },
+    {
+      "relevance": 0.0016992633463814855,
+      "label": "Automotive>AutoType>DriverlessCars"
+    },
+    {
+      "relevance": 0.0014488229062408209,
+      "label": "Technology&Computing>Robotics"
+    },
+    {
+      "relevance": 0.0014021844835951924,
+      "label": "Hobbies&Interests>ModelToys"
+    },
+    {
+      "relevance": 0.00131264328956604,
+      "label": "Technology&Computing>Computing>Internet>InternetOfThings"
+    },
+    {
+      "relevance": 0.001212672796100378,
+      "label": "Technology&Computing"
+    },
+    {
+      "relevance": 0.001140800304710865,
+      "label": "Science"
+    },
+    {
+      "relevance": 0.0010219616815447807,
+      "label": "Hobbies&Interests>GamesAndPuzzles"
+    },
+    {
+      "relevance": 0.8324226140975952,
+      "label": "Technology&Computing>ArtificialIntelligence"
+    },
+    {
+      "relevance": 0.40008267760276794,
+      "label": "Education>LanguageLearning"
+    },
+    {
+      "relevance": 0.24530543386936188,
+      "label": "Science"
+    },
+    {
+      "relevance": 0.011391302570700645,
+      "label": "Technology&Computing>Computing>Internet>InternetOfThings"
+    },
+    {
+      "relevance": 0.007730466779321432,
+      "label": "Technology&Computing"
+    },
+    {
+      "relevance": 0.007428544573485851,
+      "label": "Education>EducationalAssessment"
+    },
+    {
+      "relevance": 0.0067970906384289265,
+      "label": "Careers>RemoteWorking"
+    },
+    {
+      "relevance": 0.006253997795283794,
+      "label": "Education>HomeworkAndStudy"
+    },
+    {
+      "relevance": 0.005974768660962582,
+      "label": "Technology&Computing>Computing>Internet>SocialNetworking"
+    },
+    {
+      "relevance": 0.005782655440270901,
+      "label": "EventsAndAttractions>Concerts&MusicEvents"
+    },
+    {
+      "relevance": 0.09352684020996094,
+      "label": "Automotive>AutoType"
+    },
+    {
+      "relevance": 0.06736171990633011,
+      "label": "Technology&Computing>Computing>ComputerSoftwareAndApplications>SharewareAndFreeware"
+    },
+    {
+      "relevance": 0.033810630440711975,
+      "label": "Technology&Computing>Computing>Internet>SocialNetworking"
+    },
+    {
+      "relevance": 0.03344886377453804,
+      "label": "Technology&Computing>Computing>ComputerSoftwareAndApplications>Browsers"
+    },
+    {
+      "relevance": 0.02037917450070381,
+      "label": "Automotive>AutoBuyingAndSelling"
+    },
+    {
+      "relevance": 0.02010384202003479,
+      "label": "Automotive>AutoBodyStyles>Convertible"
+    },
+    {
+      "relevance": 0.014814566820859909,
+      "label": "BusinessAndFinance>Business>BusinessBanking&Finance"
+    },
+    {
+      "relevance": 0.01474137045443058,
+      "label": "Shopping"
+    },
+    {
+      "relevance": 0.014026636257767677,
+      "label": "Automotive>AutoTechnology>AutoInfotainmentTechnologies"
+    },
+    {
+      "relevance": 0.014010350219905376,
+      "label": "PersonalFinance>HomeUtilities>PhoneServices"
+    },
+    {
+      "relevance": 0.40445083379745483,
+      "label": "Technology&Computing>Computing>ComputerSoftwareAndApplications>DesktopPublishing"
+    },
+    {
+      "relevance": 0.17708082497119904,
+      "label": "Technology&Computing>ConsumerElectronics>TabletsAndE-readers"
+    },
+    {
+      "relevance": 0.03711479529738426,
+      "label": "BusinessAndFinance>Industries>PublishingIndustry"
+    },
+    {
+      "relevance": 0.026668766513466835,
+      "label": "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching"
+    },
+    {
+      "relevance": 0.013142727315425873,
+      "label": "Hobbies&Interests>ArtsAndCrafts>Scrapbooking"
+    },
+    {
+      "relevance": 0.008056684397161007,
+      "label": "Technology&Computing>Computing>ComputerSoftwareAndApplications>Databases"
+    },
+    {
+      "relevance": 0.007450093515217304,
+      "label": "Technology&Computing>Computing>Internet>WebDevelopment"
+    },
+    {
+      "relevance": 0.00663040392100811,
+      "label": "Technology&Computing>Computing>ComputerSoftwareAndApplications>GraphicsSoftware"
+    },
+    {
+      "relevance": 0.006355778314173222,
+      "label": "Technology&Computing>Computing>Internet"
+    },
+    {
+      "relevance": 0.006256535183638334,
+      "label": "Technology&Computing>Computing>Internet>WebDesignAndHTML"
+    },
+    {
+      "relevance": 0.18208429217338562,
+      "label": "Education>LanguageLearning"
+    },
+    {
+      "relevance": 0.03268978372216225,
+      "label": "Technology&Computing>Computing>Internet>SocialNetworking"
+    },
+    {
+      "relevance": 0.029754338786005974,
+      "label": "Education>HomeworkAndStudy"
+    },
+    {
+      "relevance": 0.027448654174804688,
+      "label": "Hobbies&Interests>ContentProduction"
+    },
+    {
+      "relevance": 0.022595396265387535,
+      "label": "RealEstate>IndustrialProperty"
+    },
+    {
+      "relevance": 0.012991970404982567,
+      "label": "Technology&Computing>ArtificialIntelligence"
+    },
+    {
+      "relevance": 0.009576001204550266,
+      "label": "BusinessAndFinance>Business>ConsumerIssues>Recalls"
+    },
+    {
+      "relevance": 0.005680250935256481,
+      "label": "Hobbies&Interests>GamesAndPuzzles"
+    },
+    {
+      "relevance": 0.005379671696573496,
+      "label": "Careers>JobSearch>ResumeWritingAndAdvice"
+    },
+    {
+      "relevance": 0.004792732186615467,
+      "label": "NewsAndPolitics>Weather"
+    },
+    {
+      "relevance": 0.9579818248748779,
+      "label": "Education>LanguageLearning"
+    },
+    {
+      "relevance": 0.010691981762647629,
+      "label": "Education>HomeworkAndStudy"
+    },
+    {
+      "relevance": 0.009564190171658993,
+      "label": "Education>EducationalAssessment"
+    },
+    {
+      "relevance": 0.0061633288860321045,
+      "label": "Technology&Computing>ArtificialIntelligence"
+    },
+    {
+      "relevance": 0.0052689132280647755,
+      "label": "Education>OnlineEducation"
+    },
+    {
+      "relevance": 0.0031197001226246357,
+      "label": "BusinessAndFinance>Business>ConsumerIssues>Recalls"
+    },
+    {
+      "relevance": 0.001993444748222828,
+      "label": "Education>EducationalAssessment>StandardizedTesting"
+    },
+    {
+      "relevance": 0.0015345680294558406,
+      "label": "Hobbies&Interests>ContentProduction"
+    },
+    {
+      "relevance": 0.0009767848532646894,
+      "label": "BusinessAndFinance>Industries>EducationIndustry"
+    },
+    {
+      "relevance": 0.0005768225528299809,
+      "label": "Technology&Computing>Computing>ComputerSoftwareAndApplications>WebConferencing"
+    },
+    {
+      "relevance": 0.6724810600280762,
+      "label": "PopCulture"
+    },
+    {
+      "relevance": 0.19851987063884735,
+      "label": "BusinessAndFinance>Industries>MediaIndustry"
+    },
+    {
+      "relevance": 0.04555463045835495,
+      "label": "Technology&Computing"
+    },
+    {
+      "relevance": 0.03140111640095711,
+      "label": "EventsAndAttractions>FanConventions"
+    },
+    {
+      "relevance": 0.01263390388339758,
+      "label": "Technology&Computing>Computing>Internet>SocialNetworking"
+    },
+    {
+      "relevance": 0.011924361810088158,
+      "label": "EventsAndAttractions>PoliticalEvent"
+    },
+    {
+      "relevance": 0.011812402866780758,
+      "label": "VideoGaming>MobileGames"
+    },
+    {
+      "relevance": 0.011721858754754066,
+      "label": "Automotive>AutoType>PerformanceCars"
+    },
+    {
+      "relevance": 0.0108884172514081,
+      "label": "FineArt>Design"
+    },
+    {
+      "relevance": 0.009745496325194836,
+      "label": "VideoGaming>VideoGameGenres>SimulationVideoGames"
+    },
+    {
+      "relevance": 0.44274163246154785,
+      "label": "Education>LanguageLearning"
+    },
+    {
+      "relevance": 0.14212802052497864,
+      "label": "Technology&Computing>ArtificialIntelligence"
+    },
+    {
+      "relevance": 0.05823177099227905,
+      "label": "Technology&Computing>Computing>Internet>SocialNetworking"
+    },
+    {
+      "relevance": 0.05625922605395317,
+      "label": "Technology&Computing>Computing>Internet>Search"
+    },
+    {
+      "relevance": 0.034865252673625946,
+      "label": "Technology&Computing>ConsumerElectronics>TabletsAndE-readers"
+    },
+    {
+      "relevance": 0.022523758932948112,
+      "label": "Technology&Computing>Computing>ProgrammingLanguages"
+    },
+    {
+      "relevance": 0.020689183846116066,
+      "label": "Technology&Computing>Computing>Internet>InternetOfThings"
+    },
+    {
+      "relevance": 0.017109878361225128,
+      "label": "Technology&Computing>Computing>Internet"
+    },
+    {
+      "relevance": 0.013525860384106636,
+      "label": "BusinessAndFinance>Business>ConsumerIssues>Recalls"
+    },
+    {
+      "relevance": 0.013332082889974117,
+      "label": "Technology&Computing>Computing>ComputerSoftwareAndApplications>DesktopPublishing"
+    },
+    {
+      "relevance": 0.7309771776199341,
+      "label": "Technology&Computing>ArtificialIntelligence"
+    },
+    {
+      "relevance": 0.4725770652294159,
+      "label": "Education>LanguageLearning"
+    },
+    {
+      "relevance": 0.053872108459472656,
+      "label": "Education>OnlineEducation"
+    },
+    {
+      "relevance": 0.015445638447999954,
+      "label": "BusinessAndFinance>Industries>EducationIndustry"
+    },
+    {
+      "relevance": 0.01340150274336338,
+      "label": "Education>EducationalAssessment"
+    },
+    {
+      "relevance": 0.011187426745891571,
+      "label": "Technology&Computing>ConsumerElectronics>TabletsAndE-readers"
+    },
+    {
+      "relevance": 0.004734193440526724,
+      "label": "BusinessAndFinance>Industries>HealthcareIndustry"
+    },
+    {
+      "relevance": 0.004572969861328602,
+      "label": "BusinessAndFinance>Business>ConsumerIssues>Recalls"
+    },
+    {
+      "relevance": 0.0038134234491735697,
+      "label": "Technology&Computing>AugmentedReality"
+    },
+    {
+      "relevance": 0.003671390702947974,
+      "label": "BusinessAndFinance>Business"
+    },
+    {
+      "relevance": 0.9860575795173645,
+      "label": "Technology&Computing>ArtificialIntelligence"
+    },
+    {
+      "relevance": 0.008821805007755756,
+      "label": "Technology&Computing>Computing>Internet>InternetOfThings"
+    },
+    {
+      "relevance": 0.00449809804558754,
+      "label": "BusinessAndFinance>Industries>HealthcareIndustry"
+    },
+    {
+      "relevance": 0.0031921067275106907,
+      "label": "Technology&Computing>AugmentedReality"
+    },
+    {
+      "relevance": 0.0025393168907612562,
+      "label": "Technology&Computing>Robotics"
+    },
+    {
+      "relevance": 0.0022828325163573027,
+      "label": "Automotive>AutoType>DriverlessCars"
+    },
+    {
+      "relevance": 0.0021818100940436125,
+      "label": "Careers>RemoteWorking"
+    },
+    {
+      "relevance": 0.0019661581609398127,
+      "label": "Education>EducationalAssessment"
+    },
+    {
+      "relevance": 0.0015469460049644113,
+      "label": "Automotive>Road-SideAssistance"
+    },
+    {
+      "relevance": 0.0014154668897390366,
+      "label": "Technology&Computing"
+    }
+  ]
+}

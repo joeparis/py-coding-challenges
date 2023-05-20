@@ -12,15 +12,18 @@ import click
 @click.argument("file")
 # @click.argument("file", type=click.Path(exists=True), nargs=-1)
 @click.option("-c", "--bytes", is_flag=True, help="Print the byte counts.")
+@click.option("-l", "--lines", is_flag=True, help="Print the byte counts.")
 @click.version_option(version="0.1.0")
-def cli(file, bytes):
+def cli(file, bytes, lines):
     file_path = Path(file)
 
     if bytes:
-        click.echo(f"{os.stat(str(file_path)).st_size} {file_path.name}")
+        b = file_path.read_bytes()
+        click.echo(f"{len(b)} {file_path.name}")
 
-        bytes = file_path.read_bytes()
-        click.echo(f"{len(bytes)} {file_path.name}")
+    if lines:
+        with file_path.open(encoding="utf-8") as f:
+            click.echo(f"{len(f.readlines())} {file_path.name}")
 
 
 def main():

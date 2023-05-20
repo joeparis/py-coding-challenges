@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "ccwc",
+            "name": "count bytes",
             "type": "python",
             "request": "launch",
             "program": "${file}",
@@ -15,7 +15,19 @@
             "args": [
                 "-c",
                 "text.txt",
-                "user.json"
+            ]
+        },
+        {
+            "name": "count lines",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${fileDirname}",
+            "args": [
+                "-l",
+                "text.txt",
             ]
         },
         {

@@ -44,6 +44,31 @@
             ]
         },
         {
+            "name": "count chars",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${fileDirname}",
+            "args": [
+                "-m",
+                "text.txt",
+            ]
+        },
+        {
+            "name": "count all",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${fileDirname}",
+            "args": [
+                "text.txt",
+            ]
+        },
+        {
             "name": "click_demo",
             "type": "python",
             "request": "launch",

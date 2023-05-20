@@ -12,10 +12,10 @@ import click
 @click.option("-l", "--lines", is_flag=True, help="Print the newline counts.")
 @click.option("-w", "--words", is_flag=True, help="Print the word counts.")
 @click.version_option(version="0.1.0")
-def cli(file, bytes, lines, words):
+def cli(file, bytes_, lines, words, chars):
     file_path = Path(file)
 
-    if bytes:
+    if bytes_:
         _bytes = file_path.read_bytes()
         click.echo(f"{len(_bytes)} {file_path.name}")
 

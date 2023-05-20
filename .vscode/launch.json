@@ -31,6 +31,19 @@
             ]
         },
         {
+            "name": "count words",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${fileDirname}",
+            "args": [
+                "-w",
+                "text.txt",
+            ]
+        },
+        {
             "name": "click_demo",
             "type": "python",
             "request": "launch",

@@ -15,8 +15,8 @@ def cli(file, bytes, lines):
     file_path = Path(file)
 
     if bytes:
-        b = file_path.read_bytes()
-        click.echo(f"{len(b)} {file_path.name}")
+        _bytes = file_path.read_bytes()
+        click.echo(f"{len(_bytes)} {file_path.name}")
 
     if lines:
         with file_path.open(encoding="utf-8") as f:

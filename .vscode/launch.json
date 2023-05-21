@@ -69,6 +69,19 @@
             ]
         },
         {
+            "name": "end",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${fileDirname}",
+            "args": [
+                "-m",
+                "end.txt",
+            ]
+        },
+        {
             "name": "click_demo",
             "type": "python",
             "request": "launch",

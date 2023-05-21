@@ -81,28 +81,41 @@
                 "end.txt",
             ]
         },
-        {
-            "name": "click_demo",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": true,
-            "cwd": "${fileDirname}",
-            "args": [
-                "blob.json",
-                "get_text",
-                "--sentences"
-            ]
-        },
-        {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": true,
-            "cwd": "${fileDirname}"
-        },
-    ]
+    },
+    {
+        "name": "how to file",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "justMyCode": true,
+        "cwd": "${fileDirname}",
+        "args": [
+            "end.txt",
+        ]
+    },
+    {
+        "name": "click_demo",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "justMyCode": true,
+        "cwd": "${fileDirname}",
+        "args": [
+            "blob.json",
+            "get_text",
+            "--sentences"
+        ]
+    },
+    {
+        "name": "Python: Current File",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "justMyCode": true,
+        "cwd": "${fileDirname}"
+    },
+]
 }

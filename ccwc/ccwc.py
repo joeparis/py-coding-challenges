@@ -7,7 +7,7 @@ import click
 
 
 @click.command()
-@click.argument("file", type=click.File(mode="rb", encoding="utf-8"))
+@click.argument("file", type=click.File(mode="rb", encoding="utf-8"), default=sys.stdin)
 @click.option("-c", "--bytes", is_flag=True, help="Print the byte counts.")
 @click.option("-l", "--lines", is_flag=True, help="Print the newline counts.")
 @click.option("-w", "--words", is_flag=True, help="Print the word counts.")
@@ -18,7 +18,8 @@ def cli(file, bytes, lines, words, chars):
     word_count = 0
     char_count = 0
 
-    with click.open_file(file.name, encoding="utf-8") as f:
+    # with click.open_file(file.name, encoding="utf-8") as f:
+    with open(file.name, encoding="utf-8") as f:
         byte_count = len(Path(f.name).read_bytes())
 
         lines_ = f.readlines()
@@ -26,12 +27,13 @@ def cli(file, bytes, lines, words, chars):
 
         for line in lines_:
             word_count += len(line.strip().split())
-            char_count += len(line) + 1
+            # char_count += len(line)
+        char_count = len(f.read())
 
-    assert byte_count == 341836
-    assert line_count == 7137
-    assert word_count == 58159
-    assert char_count == 339120
+    # assert byte_count == 341836
+    # assert line_count == 7137
+    # assert word_count == 58159
+    # assert char_count == 339120
 
     if bytes:
         click.echo(f"{byte_count} {file.name}")
